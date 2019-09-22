@@ -9,26 +9,27 @@ body {
 }
 
 header {
-    background-color: #333;
+    background-color: #4aaaa5;
+    margin: 0px 475px 0px 175px;
 }
 
 h1 {
     color: #eee;
-    font-size: 28px;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-size: 24px;
     margin: 500px;
     padding: 25px;
     margin: 0;
-    margin-bottom: 20px;
-    font-size: 28px;
     text-align: center;
 }
 
 h2 {
-    font-size: 24px;   
+    font-size: 24px;
+    font-family: 'Georgia', Times, Times New Roman, serif;   
 }
 
-a {
-    color: #d21034;
+p {
+    color: #777777;
 }
 
 .container {
@@ -40,10 +41,17 @@ a {
 #contact-info,
 #bio-image {
     float: left;
+    margin: auto;
+
 }
 
 #main-bio {
-    width: 70%;
+    width: 100%;
+    margin: auto;
+    border: 1px solid #dddddd;
+    padding: 20px;
+    margin: center;
+
 }
 
 #contact-info {
@@ -54,4 +62,13 @@ a {
     width: 200px;
     height: 200px;
     margin-right: 20px;
+}
+
+.footer {
+    background-color: #666666;
+    width: 200px;
+    height: 50px;
+    margin: auto;
+    margin-top: 750px;
+    width: 1024px;
 }
